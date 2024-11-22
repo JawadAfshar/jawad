@@ -1,0 +1,85 @@
+@font-face{
+    font-family: 'title';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts1.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts1.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts1.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}@font-face{
+    font-family: 'text';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}
+h2{
+    text-align: center;
+    font-family: 'title';
+    color: goldenrod;
+}
+p{
+    direction: rtl;
+    font-family: 'text';
+    line-height: 50px;
+}
+div.goo_btn{
+    width: 50%;
+    height: auto;
+    font-size: 1.5em;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    cursor:pointer;
+}div.goo_btn:active{
+    width: 50%;
+    height: auto;
+    font-size: 1.5em;
+    background-color: rgb(21, 125, 167);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 0.5%;
+    cursor:pointer;
+}
+img.back_btn{
+    position: absolute;
+    position: fixed;
+    width: 7%;
+    left: 0.1%;
+    height: auto;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid blue;
+    opacity: 40%;
+    top: 40%;
+}img.back_btn:hover{
+    position: absolute;
+    position: fixed;
+    width: 7%;
+    left: 0.1%;
+    height: auto;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid blue;
+    opacity: 100%;
+    top: 40%;
+    animation: back 0.2s linear 1;
+}
+@keyframes back{
+    0%{
+        left: 0.5%;
+    }100%{
+        left: -15%;
+    }
+}

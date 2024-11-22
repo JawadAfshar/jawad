@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(0, 123, 238);
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+@font-face{
+    font-family: 'p';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}@font-face{
+    font-family: 'pp';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts1.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts1.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts1.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}
+div.content_btn{
+    width: 99%;
+    height: auto;
+    border: 1px solid gray;
+    position: absolute;
+    position: fixed;
+    left: 0.1%;
+    bottom: 0%;
+    border-radius: 3px;
+    background-color: rgba(211, 211, 211, 0.205);
+    box-shadow: 2px -2px 3px black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+[type=button]{
+    width: 20%;
+    float: right;
+    margin-right: 1%;
+    font-size: 1em;
+    background-color: green;
+    color: yellow;
+}[type=button]:active{
+    width: 20%;
+    float: right;
+    margin-right: 1%;
+    font-size: 1em;
+    background-color: rgb(19, 0, 128);
+    color: yellow;
+}
+[type=button],[type=text], select, form{
+    display: inline-block;
+    border-radius: 2px;
+    border: none;
+    padding: 0.5%;
+}
+form{
+    width: 58%;
+    margin-left: 1%;
+}
+[type=text]{
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+    direction: rtl;
+}
+select{
+    width: 17%;
+    float: left;
+    margin-left: 1%;
+    font-size: 1em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+div.body_password{
+    color: rgb(228, 230, 231);
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px -1px 3px black;
+    margin-top: 1%;
+    letter-spacing: 1px;
+}
+p.one_password{
+    text-align: center;
+    font-size: 1em;
+    animation: p 1s linear 1;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}p.one_password:hover{
+    animation: p 1s linear 1;
+    color: rgb(0, 255, 255);
+    background-color: rgb(117, 8, 8);
+    border-radius: 5px;
+}
+@keyframes p{
+    0%{
+        margin-top: -10%;
+        letter-spacing: 12px;
+        color: gray;
+
+    }100%{
+        margin-top: 2%;
+        letter-spacing: 1px;
+        color: white;
+    }
+}
+input#load{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 3px solid blue;
+    animation: load 0.5s linear infinite;
+    background-color: black;
+    font-size: 0px;
+}
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+i.number{
+    width: 20px;
+    height: 20px;
+    font-size: 0.5em;
+    border-radius: 2px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: darkslategray;
+}
+div.help{
+    font-size: 1.5em;
+    color: wheat;
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 1px -2px 3px black;
+    line-height: 5vh;
+    animation:sh 1s linear 1;
+}
+@keyframes sh{
+    0%{
+        display: block;
+        color: transparent;
+        text-shadow: 1px -2px 3px transparent;
+    }100%{
+        color: white;
+        text-shadow: 1px -2px 3px black;
+        display: block;
+    }
+}

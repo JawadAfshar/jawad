@@ -1,0 +1,208 @@
+body{
+    margin: 0%;
+    border: none;
+    padding: 0%;
+    background-color: white;
+}
+@font-face{
+    font-family: 'p';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}@font-face{
+    font-family: 'pu';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts1.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts1.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts1.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}@font-face{
+    font-family: 'n';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts2.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts2.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts2.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}
+img.jawad-logo{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+}
+div.line{
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin-top: -1%;
+    background: linear-gradient(to top, gray, white);
+}
+div.body_content{
+    width: 90%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-color: gray;
+    border-radius: 3px;
+    box-shadow: 2px -4px 5px black;
+}
+a:active{
+    font-family: 'p';
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 4%;
+    color: rgb(69, 1, 255);
+    text-shadow: 2px -1px 3px black;
+}
+@media only screen and (min-width: 100px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 4%;
+        margin-right: 4%;
+        font-size: 0.2em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 200px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 0.4em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 250px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 0.4em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 280px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 0.5em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}
+@media only screen and (min-width: 250px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 0.5em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 350px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 0.6em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 500px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 3%;
+        margin-right: 2%;
+        font-size: 0.8em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 650px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 4%;
+        margin-right: 3%;
+        font-size: 0.8em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 800px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 4%;
+        margin-right: 3%;
+        font-size: 1em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}@media only screen and (min-width: 1000px){
+    a{
+        font-family: 'p';
+        text-decoration: none;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1em;
+        color: yellow;
+        text-shadow: 2px -1px 3px black;
+    }
+}
+img.facebook{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}img.facebook:hover{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    filter: grayscale(40);
+}
+p.text_bunlicity{
+    text-align: center;
+    color:rgb(183, 212, 14);
+    font-family: 'pu';
+    text-shadow: 2px -1px 3px black;
+}
+i.number{
+    font-family: 'n';
+    color: blue;
+    font-size: 1em;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 5px;
+}
+img.progamer{
+    width: 100%;
+    height: auto;
+    margin-bottom: -0.5%;
+}
+div#t1, div#t2, div#t3, div#t4{
+    display: none;
+}
+i.email, i.url{
+    font-size: 1em;
+    color: blue;
+}

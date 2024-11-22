@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+@font-face{
+    font-family: 'text';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('vebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/fonts.ttf') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/fonts.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/fonts.ttf') format('truetype'), /* Safari, Android, ios */
+    url('webfont.svg#svgFontName') format('svg'); /* Legacy ios */
+}
+div.book-content{
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    background-color: gray;
+    margin: 1%;
+    border-radius: 4px;
+    box-shadow: 2px -2px 3px black;
+    padding: 1%;
+    font-family: 'text';
+    margin-top: 5%;
+}
+p.book_name{
+    background-color: white;
+    text-align: center;
+    color: blue;
+    font-size: 1em;
+    border-radius: 2px;
+    margin-top: 5%;
+}
+i.wr1{
+    color: white;
+    float: right;
+    font-size: 0.8em;
+}
+i.wr2{
+    color: brown;
+    font-size: 0.8em;
+}
+img.download-object{
+    width: 20%;
+    display: inline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 40%;
+}img.download-object:active{
+    width: 20%;
+    display: inline;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    filter: grayscale(40);
+}
+hr.hr{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+img.back_btn{
+    position: absolute;
+    position: fixed;
+    width: 7%;
+    left: 0.1%;
+    height: auto;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid blue;
+    opacity: 40%;
+    top: 40%;
+}img.back_btn:hover{
+    position: absolute;
+    position: fixed;
+    width: 7%;
+    left: 0.1%;
+    height: auto;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid blue;
+    opacity: 100%;
+    top: 40%;
+    animation: back 0.2s linear 1;
+}
+@keyframes back{
+    0%{
+        left: 0.5%;
+    }100%{
+        left: -15%;
+    }
+}
+img.book_logo{
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-bottom: -10%;
+}
